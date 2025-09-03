@@ -3,6 +3,7 @@
 **ExpNo 2 :** Implement Breadth First Search Traversal of a Graph
 
 **Name:** RAHUL M R
+
 **Register Number:** 2305003005
 
 **Aim:**
@@ -54,19 +55,10 @@ start_node = input("Enter the starting node for BFS: ")
 print("BFS Traversal Order:", bfs(graph, start_node))
 ```
 **Sample Input:**
-```
-Enter number of nodes: 3
-Enter node: A
-Enter neighbors of A (comma separated): B
-Enter node: B
-Enter neighbors of B (comma separated): C
-Enter node: C
-Enter neighbors of C (comma separated): 
-Enter the starting node for BFS: A
-```
+<img width="1260" height="80" alt="image" src="https://github.com/user-attachments/assets/59fc89f1-5852-49af-a98f-bd64ce1cafdd" />
+
 **Sample Output:**
-```
-BFS Traversal Order: ['A', 'B', 'C']
-```
+<img width="1250" height="392" alt="image" src="https://github.com/user-attachments/assets/2b42bbe5-2a27-440e-aa47-2968eb5795b8" />
+
 
 **Result:**
