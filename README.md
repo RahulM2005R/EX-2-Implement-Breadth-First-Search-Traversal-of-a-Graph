@@ -6,10 +6,10 @@
 
 **Register Number:** 2305003005
 
-###**Aim:**
+### Aim:
 To Implement Breadth First Search Traversal of a Graph using Python 3.
 
-###**Theory:**
+### Theory:
 
 Breadth-First Traversal (or Search) for a graph is like the Breadth-First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles so that we may come to the same node again. To avoid processing a node more than once, we divide the vertices into two categories:
 
@@ -19,11 +19,11 @@ Not Visited
 
 A Boolean visited array is used to mark the visited vertices. For simplicity, it is assumed that all vertices are reachable from the starting vertex. BFS uses a queue data structure for traversal.
 
-###**How does BFS work?**
+**How does BFS work?**
 
 Starting from the root, all the nodes at a particular level are visited first, and then the next level nodes are traversed until all the nodes are visited. To do this, a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue, and the current-level nodes are marked visited and popped from the queue. Illustration: Let us understand the working of the algorithm with the help of the following example. 
 
-###**Algorithm:**
+### Algorithm:
 
 Step 1: Construct a Graph with Nodes and Edges
 
@@ -38,7 +38,7 @@ Step 5: If Not Visited, add it to the Queue. Else Continue.
 Step 6: Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
 
 
-###**Program:**
+### Program:
 ```
 def bfs(graph, start):
     visited = []  
@@ -65,12 +65,12 @@ start_node = input("Enter the starting node for BFS: ")
 
 print("BFS Traversal Order:", bfs(graph, start_node))
 ```
-###**Input:**
+### Input:
 <img width="1250" height="392" alt="image" src="https://github.com/user-attachments/assets/2b42bbe5-2a27-440e-aa47-2968eb5795b8" />
-###**Output:**
+### Output:
 <img width="1260" height="80" alt="image" src="https://github.com/user-attachments/assets/59fc89f1-5852-49af-a98f-bd64ce1cafdd" />
 
 
 
-###**Result:**
+### Result:
 Thus, the program for implementing breadth first search traversal of a graph has been executed successfully
