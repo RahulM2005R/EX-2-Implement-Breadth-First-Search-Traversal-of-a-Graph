@@ -67,6 +67,7 @@ print("BFS Traversal Order:", bfs(graph, start_node))
 ```
 ### Input:
 <img width="1250" height="392" alt="image" src="https://github.com/user-attachments/assets/2b42bbe5-2a27-440e-aa47-2968eb5795b8" />
+
 ### Output:
 <img width="1260" height="80" alt="image" src="https://github.com/user-attachments/assets/59fc89f1-5852-49af-a98f-bd64ce1cafdd" />
 
