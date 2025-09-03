@@ -1,9 +1,9 @@
 # Implement-Breadth-First-Search-Traversal-of-a-Graph
 **BREADTH-FIRST-SEARCH**
 **ExpNo 2 :** Implement Breadth First Search Traversal of a Graph
-**Name:**
+**Name:** RAHUL M R
 
-**Register Number:**
+**Register Number:** 2305003005
 
 **Aim:**
 To Implement Breadth First Search Traversal of a Graph using Python 3.
@@ -27,6 +27,7 @@ Step 5: If Not Visited, add it to the Queue. Else Continue.
 Step 6: Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
 
 **Program:**
+```
 def bfs(graph, start):
     visited = []  
     queue = [start]  
@@ -51,7 +52,7 @@ start_node = input("Enter the starting node for BFS: ")
 
 
 print("BFS Traversal Order:", bfs(graph, start_node))
-
+```
 **Sample Input:**
 
 Enter number of nodes: 3
