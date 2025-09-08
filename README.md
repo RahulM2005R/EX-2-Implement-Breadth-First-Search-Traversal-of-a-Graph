@@ -19,24 +19,27 @@ A Boolean visited array is used to mark the visited vertices. For simplicity, it
 
 **How does BFS work?**
 
-Starting from the root, all the nodes at a particular level are visited first, and then the next level nodes are traversed until all the nodes are visited. To do this, a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue, and the current-level nodes are marked visited and popped from the queue. Illustration: Let us understand the working of the algorithm with the help of the following example. 
+Starting from the root, all the nodes at a particular level are visited first, and then the next level nodes are traversed until all the nodes are visited. To do this, a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue, and the current-level nodes are marked visited and popped from the queue. 
+
+Illustration: Let us understand the working of the algorithm with the help of the following example. 
 
 ### Algorithm:
 
-Step 1: Construct a Graph with Nodes and Edges
+**Step 1:** Construct a Graph with Nodes and Edges
 
-Step 2: Breadth First Uses Queue and iterates through the Queue for Traversal.
+**Step 2:** Breadth First Uses Queue and iterates through the Queue for Traversal.
 
-Step 3: Insert a Start Node into the Queue.
+**Step 3:** Insert a Start Node into the Queue.
 
-Step 4: Find its Successors Or neighbors and Check whether the node is visited or not.
+**Step 4:** Find its Successors Or neighbors and Check whether the node is visited or not.
 
-Step 5: If Not Visited, add it to the Queue. Else Continue.
+**Step 5:** If Not Visited, add it to the Queue. Else Continue.
 
-Step 6: Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
+**Step 6:** Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
 
 
 ### Program:
+
 ```
 def bfs(graph, start):
     visited = []  
@@ -63,42 +66,35 @@ start_node = input("Enter the starting node for BFS: ")
 
 print("BFS Traversal Order:", bfs(graph, start_node))
 ```
+
 ### Sample Input:
 
+```
 Enter number of nodes: 6
-
 Enter node: A
-
 Enter neighbors of A (comma separated): B,C,D
-
 Enter node: B
-
 Enter neighbors of B (comma separated): E,F
-
 Enter node: C
-
 Enter neighbors of C (comma separated):
-
 Enter node: D
-
 Enter neighbors of C (comma separated):
-
 Enter node: E
-
 Enter neighbors of C (comma separated):
-
 Enter node: F
-
 Enter neighbors of C (comma separated):
-
 Enter the starting node for BFS: A
+```
 
 ### Sample Output:
 
+```
 BFS Traversal Order: ['A', 'B', 'C', 'D', 'E', 'F', ' ']
+```
 
 ### Input:
 <img width="1250" height="392" alt="image" src="https://github.com/user-attachments/assets/2b42bbe5-2a27-440e-aa47-2968eb5795b8" />
+
 
 ### Output:
 <img width="1260" height="80" alt="image" src="https://github.com/user-attachments/assets/59fc89f1-5852-49af-a98f-bd64ce1cafdd" />
@@ -107,4 +103,4 @@ BFS Traversal Order: ['A', 'B', 'C', 'D', 'E', 'F', ' ']
 
 ### Result:
 
-Thus, breadth first search traversal algorithm has been successfully implemented on a graph.
+Thus, Breadth first search traversal algorithm has been successfully implemented on a graph.
