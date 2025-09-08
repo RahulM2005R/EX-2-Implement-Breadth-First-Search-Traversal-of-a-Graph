@@ -63,6 +63,40 @@ start_node = input("Enter the starting node for BFS: ")
 
 print("BFS Traversal Order:", bfs(graph, start_node))
 ```
+### Sample Input:
+
+Enter number of nodes: 6
+
+Enter node: A
+
+Enter neighbors of A (comma separated): B,C,D
+
+Enter node: B
+
+Enter neighbors of B (comma separated): E,F
+
+Enter node: C
+
+Enter neighbors of C (comma separated):
+
+Enter node: D
+
+Enter neighbors of C (comma separated):
+
+Enter node: E
+
+Enter neighbors of C (comma separated):
+
+Enter node: F
+
+Enter neighbors of C (comma separated):
+
+Enter the starting node for BFS: A
+
+### Sample Output:
+
+BFS Traversal Order: ['A', 'B', 'C', 'D', 'E', 'F', ' ']
+
 ### Input:
 <img width="1250" height="392" alt="image" src="https://github.com/user-attachments/assets/2b42bbe5-2a27-440e-aa47-2968eb5795b8" />
 
@@ -72,4 +106,5 @@ print("BFS Traversal Order:", bfs(graph, start_node))
 
 
 ### Result:
-Thus, the program for implementing breadth first search traversal of a graph has been executed successfully
+
+Thus, breadth first search traversal algorithm has been successfully implemented on a graph.
